@@ -3,6 +3,8 @@
 
 We used a simple Python script to monitor the number of metrics from the status of the host (Oracle Linux) in Prometheus. Finally, we displayed the values in Grafana.
 
+![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/671736bb-bfd3-494c-8d47-6e9257cb9627)
+
 
 **Requirements:**
 ```
