@@ -1,35 +1,3 @@
-#apiVersion: monitoring.coreos.com/v1
-#kind: ServiceMonitor
-#metadata:
-#  annotations:
-#    meta.helm.sh/release-name: prometheus-stack
-#    meta.helm.sh/release-name: mynginx
-#    meta.helm.sh/release-namespace: default
-#  generation: 1
-#  labels:
-#    app.kubernetes.io/instance: mynginx
-#    app.kubernetes.io/managed-by: Helm
-#    app.kubernetes.io/name: nginx
-#    helm.sh/chart: nginx-15.1.2
-#    heritage: Helm
-#    release: prometheus-stack
-#  name: mynginx
-#  namespace: monitoring
-#spec:
-#  endpoints:
-#  - interval: 5s
-#    path: /metrics
-#    port: metrics
-#  jobLabel: nginx-items
-#  namespaceSelector:
-#    matchNames:
-#    - default
-#  selector:
-#    matchLabels:
-#      app.kubernetes.io/instance: mynginx
-#      app.kubernetes.io/name: nginx
-
-#------------------------------------------------
 apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
