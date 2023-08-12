@@ -60,8 +60,6 @@ systemctl enable --now py-metrics.service
 
 ![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/b02ff2af-db4e-4446-bb61-f65d9b9e2054)
 
-
-
 7- Creating  external service, endpoint and service monitor in Kubernetes in order to monitor metrics in Prometheus
 
 You can use the py-extservice.yaml,py-extendpoint.yaml and py-svcmonitor.yaml manifest file.
@@ -70,6 +68,9 @@ kubectl apply -f py-extservice.yaml
 kubectl apply -f py-extendpoint.yaml
 kubectl apply -f py-svcmonitor.yaml
 ```
+![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/4cbc06a2-1beb-4708-88ce-a83eaf61e192)
+
+
 Note: In the py-extendpoint.yaml file, instead of the ip value, put the IP value of the desired host whose metrics are to be monitored.
 
 8- Creating a dashboard in Grafana.
