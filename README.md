@@ -59,7 +59,7 @@ systemctl enable --now py-metrics.service
 
 
 
-7- Creating monitor service in Kubernetes in order to monitor metrics in Prometheus
+7- Creating  external service, endpoint and service monitor in Kubernetes in order to monitor metrics in Prometheus
 
 You can use the py-svcmonitor.yaml manifest file.
 ```
