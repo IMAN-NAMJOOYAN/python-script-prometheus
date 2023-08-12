@@ -1,0 +1,13 @@
+kind: Endpoints
+apiVersion: v1
+metadata:
+ name: py-extservice
+ labels:
+   app: py-extservice
+
+subsets:
+ - addresses:
+     - ip: 10.0.84.108
+   ports: 
+   - name: metric
+     port: 9918

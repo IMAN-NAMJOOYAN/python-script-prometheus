@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+ name: py-extservice
+ labels:
+   app: py-extservice
+spec:
+ type: ClusterIP
+ ports:
+ - name: metric
+   port: 9918
+   targetPort: 9918
