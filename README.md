@@ -7,6 +7,9 @@ We used a simple Python script to monitor the number of metrics from the status 
 **Requirements:**
 ```
 0- Prometheus Stack (installed on Kubernetes cluster)
+
+https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack
+
 1- Oracle Linux 8.x (the target host is installed as a virtual machine outside the Kubernetes cluster)
 2- Python 3.8
 3- pip 3.8
