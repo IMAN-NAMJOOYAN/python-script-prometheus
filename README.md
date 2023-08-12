@@ -58,7 +58,9 @@ systemctl enable --now py-metrics.service
 
 7- Creating monitor service in Kubernetes in order to monitor metrics in Prometheus
 ```
-You can use the py-svcmonitor.yaml manifest file. 
+You can use the py-svcmonitor.yaml manifest file.
+
+kubectl apply -f py-svcmonitor.yaml
 ```
 8- Creating a dashboard in Grafana.
 
