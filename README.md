@@ -68,7 +68,7 @@ kubectl apply -f py-extservice.yaml
 kubectl apply -f py-extendpoint.yaml
 kubectl apply -f py-svcmonitor.yaml
 ```
-![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/4cbc06a2-1beb-4708-88ce-a83eaf61e192)
+![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/0d6b051e-82f4-4e0f-825a-66256bfd1b2f)
 
 
 Note: In the py-extendpoint.yaml file, instead of the ip value, put the IP value of the desired host whose metrics are to be monitored.
