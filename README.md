@@ -18,6 +18,7 @@ https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack
 4- psutil and prometheus_client libraries
 ```
 **Steps:**
+
 1- Installing Python 3.8
 ```
 dnf install python38 -y
