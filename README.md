@@ -51,10 +51,10 @@ systemctl enable --now py-metrics.service
 ```
 
 6- View metrics
-```
+
 ![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/b02ff2af-db4e-4446-bb61-f65d9b9e2054)
 
-```
+
 
 7- Creating monitor service in Kubernetes in order to monitor metrics in Prometheus
 8- Creating a dashboard in Grafana
