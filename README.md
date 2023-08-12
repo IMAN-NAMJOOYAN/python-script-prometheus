@@ -3,6 +3,7 @@
 
 We used a simple Python script to monitor the number of metrics from the status of the host (Oracle Linux) in Prometheus. Finally, we displayed the values in Grafana.
 
+
 **Requirements:**
 ```
 0- Prometheus Stack (installed on Kubernetes cluster)
@@ -50,5 +51,10 @@ systemctl enable --now py-metrics.service
 ```
 
 6- View metrics
+```
+![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/b02ff2af-db4e-4446-bb61-f65d9b9e2054)
+
+```
+
 7- Creating monitor service in Kubernetes in order to monitor metrics in Prometheus
 8- Creating a dashboard in Grafana
