@@ -75,5 +75,6 @@ Note: In the py-extendpoint.yaml file, instead of the ip value, put the IP value
 
 8- Creating a dashboard in Grafana.
 
-![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/b9faccf0-8455-4b9e-8113-c42c89c941ff)
+![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/3b1ab92c-fe55-4a08-a6b0-0ee5408e6cb4)
+
 
