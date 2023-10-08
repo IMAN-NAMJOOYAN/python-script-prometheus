@@ -58,7 +58,9 @@ systemctl enable --now py-metrics.service
 
 6- View metrics
 
-![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/b02ff2af-db4e-4446-bb61-f65d9b9e2054)
+![image](https://github.com/IMAN-NAMJOOYAN/python-script-prometheus/assets/16554389/3ea9205a-6b7a-43da-8a78-19addff7100f)
+
+
 
 7- Creating  external service, endpoint and service monitor in Kubernetes in order to monitor metrics in Prometheus
 
