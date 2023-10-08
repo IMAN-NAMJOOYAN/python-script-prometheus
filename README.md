@@ -12,24 +12,24 @@ We used a simple Python script to monitor the number of metrics from the status 
 
 https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack
 
-1- Oracle Linux 8.x (the target host is installed as a virtual machine outside the Kubernetes cluster)
-2- Python 3.8
-3- pip 3.8
+1- Oracle Linux 8.5 (the target host is installed as a virtual machine outside the Kubernetes cluster)
+2- Python 3.9
+3- pip 3.9
 4- psutil and prometheus_client libraries
 ```
 **Steps:**
 
-1- Installing Python 3.8
+1- Installing Python 3.9
 ```
-dnf install python38 -y
+dnf install python39 -y
 ```
 2- Installing pip
 ```
-dnf install python38-pip.noarch -y
+dnf install python39-pip.noarch -y
 ```
 3- Installing required libraries
 ```
-pip3.8 install psutil prometheus_client
+pip3.9 install psutil prometheus_client
 ```
 4- Creating a Python script
 ```
@@ -44,7 +44,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3.8 /tmp/py-metrics.py
+ExecStart=/usr/bin/python3.9 /tmp/py-metrics.py
 Restart=always
 
 [Install]
