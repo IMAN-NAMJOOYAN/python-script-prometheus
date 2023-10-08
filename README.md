@@ -1,4 +1,4 @@
-# python-script-prometheus
+# Python script prometheus
 **Monitoring metrics by python script and prometheus**
 
 We used a simple Python script to monitor the number of metrics from the status of the host (Oracle Linux) in Prometheus. Finally, we displayed the values in Grafana.
